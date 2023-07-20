@@ -3,18 +3,18 @@ import PromptPage from "../_components/PromptPage";
 
 const prompt = {
   "zh": {
-	"title": "英语翻译或修改",
-	"prompt": "我希望你充当一个英语翻译员、拼写纠正者和改进者。我会用任何语言与你交流，你会检测到所使用的语言，将其翻译成英语，并以更正和改进的形式回答我的文本。我希望你用更加优美、优雅的高级英语单词和句子来替换我的简化的A0级别的词语和句子。保持意思的一致性，但使其更具文学性。我只希望你回答修正和改进的部分，不要写解释。我的第一句话是\"要翻译的语言\"",
-	"description": "我希望你能充当英语翻译员、拼写纠正者和改进者的角色。我会用任何语言与你交流，你将检测所使用的语言，将其翻译成英语，并以更正和改进的版本回答我的文本。我希望你用更加美丽、优雅的高级英语词汇和句子来替换我的简化的A0级别的词汇和句子。保持意思的一致性，但使其更具文学性。我希望你只回答修正和改进的部分，不要写解释。我的第一句话是\"istanbulu cok seviyom burada olmak cok guzel\"",
-	"remark": "将其他语言翻译成英语，或改进您提供的英文句子。"
+	"title": "电影点评",
+	"prompt": "I want you to act as a film critic. You will write an engaging and creative film review. You can cover topics such as plot, theme and tone, acting and characters, direction, score, cinematography, production design, special effects, editing, pacing, dialogue, and more. But the most important aspect is to emphasize how the film makes you feel. What really resonates with you. You can also criticize the movie. Please avoid revealing the plot. My first request is a "film review Angle."",
+	"description": "我希望你充当一个电影评论家。你将编写一篇引人入胜和有创意的影评。你可以涵盖诸如情节、主题和基调、演技和角色、方向、配乐、电影摄影、制作设计、特效、剪辑、节奏、对话等主题。但最重要的方面是强调电影给你的感觉。什么是真正引起你的共鸣。你也可以对电影进行批评。请避免剧透。我的第一个要求是 '电影评论角度'",
+	"remark": "从情节、表演、摄影、导演、音乐等方面评论电影"
   },
-  "en": {
-	"title": "English translator",
-	"prompt": "I want you to act as an English translator, spelling corrector, and improver. I will speak to you in any language, and you will detect the language, translate it, and provide the corrected and improved version of my text in English. I want you to replace my simplified A0-level words and sentences with more beautiful, elegant, and advanced English words and sentences while keeping the same meaning. Please only reply with the corrections and improvements, and avoid writing explanations. My first sentence is \"istanbulu cok seviyom burada olmak cok guzel\"",
-	"remark": "Translate other languages into English or improve the English sentences provided."
-  },
+  "website": "https://github.com/f/awesome-chatgpt-prompts#act-as-cheap-travel-ticket-advisor",
+  "tags": [
+	"tool",
+	"latest"
+  ],
   "id": 277,
-  "weight": 7062
+  "weight": 7
 };
 
 function PromptDetail() {
