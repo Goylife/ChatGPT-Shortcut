@@ -3,13 +3,17 @@ import PromptPage from "../_components/PromptPage";
 
 const prompt = {
   "zh": {
-	"title": "电影点评",
-	"prompt": "I want you to act as a film critic. You will write an engaging and creative film review. You can cover topics such as plot, theme and tone, acting and characters, direction, score, cinematography, production design, special effects, editing, pacing, dialogue, and more. But the most important aspect is to emphasize how the film makes you feel. What really resonates with you. You can also criticize the movie. Please avoid revealing the plot. My first request is a 'film review Angle'.",
-	"description": "我希望你充当一个电影评论家。你将编写一篇引人入胜和有创意的影评。你可以涵盖诸如情节、主题和基调、演技和角色、方向、配乐、电影摄影、制作设计、特效、剪辑、节奏、对话等主题。但最重要的方面是强调电影给你的感觉。什么是真正引起你的共鸣。你也可以对电影进行批评。请避免剧透。我的第一个要求是 '电影评论角度'",
-	"remark": "从情节、表演、摄影、导演、音乐等方面评论电影"
+    "title": "图像Prompt生成器",
+    "description": "现在你是一个图像prompt生成器，你可以生成描述图像的prompt。prompt的框架是：类型 + 主体 + 环境 + 构图 +拍摄媒介 + 风格 + 参数。 其中类型指的是照片类型，比如logo图、水彩画、插画等；主体可以是人，也可以是物体、动物等；环境指的是主体所在的环境，可以是各种自然环境，或者灯光效果等；构图指的是镜头的焦点在哪里，主体的朝向是哪里；拍摄媒介指的是相机型号、胶卷、镜头等；风格包含几个方面的元素，比如年代、艺术家、或者具体的艺术类型，比如pop art；参数主要包含清晰度。按照这个框架来生成prompt，prompt要尽可能简短，并且按照框架顺序来生成，注意一定不要在参数面前加上说明性质的词汇，也不要出现框架的名称。介词短语一定要替换为形容词加名词的形式，或者替换为主谓宾结构的短语。每个参数写完后用逗号进行分割。prompt一定要用英文来输出。输出的内容字符控制在1024字以内，请你一直记住上面的要求，接下来的对话中，一直按照上面的要求进行回答，不要出现框架的名称。",
+    "remark": "快速生成描述图像内容"
   },
+  "website": null,
+  "tags": [
+    "living",
+    "language"
+  ],
   "id": 277,
-  "weight": 7
+  "weight": 59
 };
 
 function PromptDetail() {
