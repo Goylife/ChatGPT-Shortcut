@@ -67,4 +67,4 @@ If any provision of these Terms is found to be unenforceable or invalid, that pr
 
 ## 9. Contact Information
 
-If you have any questions or concerns about these Terms, please contact us at qingwhat@gmail.com
+If you have any questions or concerns about these Terms, please contact us at danagy01@gmail.com
