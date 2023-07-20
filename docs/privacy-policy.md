@@ -55,4 +55,4 @@ aishort.top maintains appropriate technical, administrative, and physical safegu
 
 ## Contact Information
 
-If you have questions or complaints about this Privacy Policy or our practices, please contact us by email at qingwhat@gmail.com.
+If you have questions or complaints about this Privacy Policy or our practices, please contact us by email at danagy01@gmail.com.
