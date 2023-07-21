@@ -25,10 +25,6 @@ module.exports = {
       items: ["guides/getting-started", "guides/login-user", "guides/community", "guides/faq"],
     },
     {
-      type: "doc",
-      id: "deploy",
-    },
-    {
       type: "category",
       label: "Policies",
       items: ["privacy-policy", "terms-of-service"],
